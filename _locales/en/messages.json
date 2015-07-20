@@ -1,0 +1,22 @@
+{
+  "extName": {
+    "message": "Is It TWIS Yet?",
+    "description": "The Extension Name. 45 Characters maximum."
+  },
+  "extSName": {
+    "message": "IITY?",
+    "description": "The Short Name. 12 Characters maximum. If extName is <= 12, just use it."
+  },
+  "extDescription": {
+    "message": "A Chrome Extension to determine if it's TWIS yet.",
+    "description": "The description of the extension. 132 Characters maximum."
+  },
+  "recTWIS": {
+    "message": "It Is Not Time For TWIS Yet",
+    "description": "Tooltip for button. For when TWIS is not live."
+  },
+  "liveTWIS": {
+    "message": "It Is TWIS!",
+    "description": "Tooltip for button. For when TWIS is broadcasting live."
+  }
+}

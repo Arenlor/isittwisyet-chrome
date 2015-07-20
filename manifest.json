@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extName__",
+  "short_name": "__MSG_extSNAME__",
+  "version": "0.0.1",
+  "default_locale": "en",
+  "description": "__MSG_extDescription",
+  "author": "Jerod Lycett",
+  "homepage_url": "https://github.com/Arenlor/isittwisyet-chrome",
+  "icons": {
+    "16": "twis-live-16.png",
+    "19": "twis-live-19.png",
+    "32": "twis-live-32.png",
+    "38": "twis-live-38.png",
+    "48": "twis-live-48.png",
+    "128": "twis-live-128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "twis-rec-19.png",
+      "38": "twis-rec-38.png"
+    },
+    "default_title": "__MSG_recTWIS__"
+  },
+  "background": {
+    "scripts": [""],
+    "persistent": false
+  }
+}
